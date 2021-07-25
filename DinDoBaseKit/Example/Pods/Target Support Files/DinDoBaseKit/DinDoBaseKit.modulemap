@@ -1,0 +1,6 @@
+framework module DinDoBaseKit {
+  umbrella header "DinDoBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DinDoBaseKit_Example' do
+  pod 'DinDoBaseKit', :path => '../'
+
+  target 'DinDoBaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,91 @@
+{
+  "name": "DinDoBaseKit",
+  "version": "0.1.0",
+  "summary": "A short description of DinDoBaseKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wg/DinDoBaseKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wg": "492109923@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wg/DinDoBaseKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DinDoBaseKit/Classes/**/*",
+  "prefix_header_file": "DinDoBaseKit/Classes/DinDoBaseKit.h",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "DateTools": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "CYLTabBarController": [
+
+    ],
+    "RTRootNavigationController": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ],
+    "JXCategoryView": [
+
+    ],
+    "WebViewJavascriptBridge": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "YBImageBrowser/Video": [
+
+    ],
+    "BMKLocationKit": [
+
+    ],
+    "BaiduMapKit": [
+
+    ],
+    "UMCCommon": [
+
+    ],
+    "UMCSecurityPlugins": [
+
+    ],
+    "UMCPush": [
+
+    ]
+  }
+}

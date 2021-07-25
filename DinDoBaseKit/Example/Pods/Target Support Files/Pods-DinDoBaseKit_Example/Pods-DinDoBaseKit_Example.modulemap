@@ -1,0 +1,6 @@
+framework module Pods_DinDoBaseKit_Example {
+  umbrella header "Pods-DinDoBaseKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
