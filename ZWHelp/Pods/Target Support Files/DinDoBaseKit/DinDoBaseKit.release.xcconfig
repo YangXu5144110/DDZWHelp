@@ -1,0 +1,13 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/DinDoBaseKit
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BMKLocationKit/framework" "${PODS_ROOT}/UMAPM/UMAPM_1.2.1" "${PODS_ROOT}/UMCCommon/UMCommon_7.2.8" "${PODS_ROOT}/UMCPush" "${PODS_ROOT}/UMDevice/UMDevice_1.2.0"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/DinDoBaseKit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AAChartKit" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CYLTabBarController" "${PODS_ROOT}/Headers/Public/DZNEmptyDataSet" "${PODS_ROOT}/Headers/Public/DateTools" "${PODS_ROOT}/Headers/Public/DinDoBaseKit" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/HWPopController" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/JXCategoryView" "${PODS_ROOT}/Headers/Public/LBXScan" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/RTRootNavigationController" "${PODS_ROOT}/Headers/Public/SDCycleScrollView" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SJBaseVideoPlayer" "${PODS_ROOT}/Headers/Public/SJUIKit" "${PODS_ROOT}/Headers/Public/SJVideoPlayer" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/TZImagePickerController" "${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge" "${PODS_ROOT}/Headers/Public/YBImageBrowser" "${PODS_ROOT}/Headers/Public/YYImage" "${PODS_ROOT}/Headers/Public/YYModel"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../../DinDoBaseKit
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

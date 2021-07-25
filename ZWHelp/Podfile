@@ -1,0 +1,23 @@
+platform:ios,'9.0'
+inhibit_all_warnings!
+
+source 'https://github.com/CocoaPods/Specs.git'
+target 'ZWHelp' do
+ 
+  pod 'Bugly'
+  pod 'DinDoBaseKit',:path => '../DinDoBaseKit'
+  pod 'YYImage', :git => 'https://github.com/QiuYeHong90/YYImage.git'
+
+  pre_install do |installer|
+    dir_web = File.join(installer.sandbox.pod_dir('WebViewJavascriptBridge'), 'WebViewJavascriptBridge')
+    Dir.foreach(dir_web) {|x|
+      real_path = File.join(dir_web, x)
+      if (!File.directory?(real_path) && File.exists?(real_path))
+        if(x == 'WebViewJavascriptBridge.h' || x == 'WebViewJavascriptBridge.m')
+          File.delete(real_path)
+        end
+      end
+    }
+  end
+   
+end
